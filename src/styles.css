@@ -1,0 +1,11 @@
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:#ddd; background:#0b1020 }
+.app { min-height:100vh; display:flex; flex-direction:column }
+.site-header{ display:flex; align-items:center; justify-content:space-between; padding:16px 24px; background:linear-gradient(90deg,#071021, #0b1630); }
+.site-header h1{ margin:0 }
+.site-header nav a{ color:#9fbef7; margin-left:16px; text-decoration:none }
+main{ flex:1; padding:24px }
+.site-footer{ text-align:center; padding:12px; color:#7a8798; font-size:14px }
+.generate .controls{ margin-bottom:18px }
+.generate button{ margin-right:8px; padding:8px 12px }
+.visual canvas{ width:100%; max-width:900px; height:auto; border-radius:8px; display:block; background:#000 }
+.status{ margin-top:8px; color:#a9b9d6 }
